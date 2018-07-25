@@ -1,0 +1,223 @@
+/*loading*/
+#loading {
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   position: fixed;
+   display: block;
+   opacity: 0.7;
+   background-color: #fff;
+   z-index: 99;
+   text-align: center;
+}
+
+#loading-image {
+  position: absolute;
+  top: 100px;
+  left: 240px;
+  z-index: 100;
+}
+.smoothScroll
+  {
+  	font-family: 'Alegreya';
+  	font-size: 20px;
+    font-weight: bolder;
+  }	
+  hr {
+	border-top: 2px solid #828282;
+	width: 120px;
+}
+.heading
+{
+  font-family: 'Alegreya';
+    font-size: 30px;
+    font-weight: bolder;
+}
+#menu, #gallery {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#menu, #contact {
+  background: #f0f0f0;
+}
+
+.parallax-section {
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+/*navbar section*/
+.navbar-default {
+  background: #ffffff;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.04);
+  border: none;
+  margin-bottom: 0;
+}
+.navbar-brand, .navbar-nav li a {
+  line-height: 28px;
+}
+.navbar-default .navbar-brand  {
+  color: #5C5C5C;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.navbar-default .navbar-nav li a {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+/* menu section */
+#menu h4 {
+	line-height: 1.5;
+}
+#menu .col-md-8 {
+  padding-bottom: 42px;
+}
+#menu .col-md-6 {
+  padding-bottom: 18px;
+  font-family: 'Cedarville Cursive';
+  font-size: 100px;
+  font-weight: bolder;
+}
+#menu span {
+  color: #5C5C5C;
+}
+
+/* gallery section */
+#gallery {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#gallery .col-md-4 {
+  padding-top: 52px;
+}
+#gallery img {
+  width: 100%;
+  padding-bottom: 18px;
+}
+#gallery .col-md-4 div {
+  position: relative;
+  bottom: 18px;
+  padding-bottom: 12px;
+}
+#gallery h3 {
+  font-size: 18px;
+  line-height: 8px;
+}
+
+/*About*/
+
+.our-service{
+  margin:65px 0px 85px;
+}
+.about  h1 {
+  color: #fff;
+  text-transform: capitalize;
+  font-family: 'Alegreya';
+  margin-bottom: 20px;
+}
+.about > p {
+    color: #fff;
+    font-family: 'Alegreya';
+    font-size: 18px;
+}
+#aboutUs
+{
+  background-image: url("../images/ice.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+/*footer*/
+
+footer {
+  background: url('../images/restaurant.jpg') 50% 0 repeat-y fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+footer h2 {
+  padding-bottom: 14px;
+}
+footer h3 {
+  padding-top: 8px;
+}
+footer p {
+  color: #ffffff;
+}
+footer span {
+  font-weight: bold;
+  padding-left: 24px;
+}
+footer .ph, footer .address {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+footer .fa {
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+/* social icon */
+.social-icon {
+  padding: 0;
+}
+.social-icon li {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+}
+.social-icon li a {
+  background: #f0f0f0;
+  border-radius: 50%;
+  color: #5C5C5C;
+  font-size: 16px;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  margin-top: 12px;
+  margin-right: 16px;
+  top: 0;
+  position: relative;
+  padding: 0;
+}
+.social-icon li a:hover {
+  background: #F6D76B;
+  top: 5px;
+}
+.information
+{
+  font-family: 'Alegreya';
+  font-size: 17px;
+}
+.food
+{
+  font-family: 'Alegreya';
+  font-weight: bolder;
+  /*font-size: 20px;*/
+}
+/* copyright section */
+#copyright {
+  background: #343434;
+  color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+#copyright p {
+  color: #ffffff;
+}
+#copyright a {
+  color: #ffffff;
+}
+#copyright a:hover {
+  color: #FF0;
+}
